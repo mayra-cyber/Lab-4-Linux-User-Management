@@ -44,3 +44,30 @@ Successfully created, modified, and secured multiple user accounts and groups. I
 
 ## Reflection
 This lab showed how dangerous sudo access can be if misconfigured and how Linux groups and permissions can be used to regain control after a breach. I also learned the difference between adduser and useradd, including how home directories are created.
+
+---
+
+## Screenshots
+
+### User Creation & Configuration
+![User creation](Screenshots/01_user_creation.png)
+![Password setup](Screenshots/02_user_password_set.png)
+![User shell update](Screenshots/03_user_shell_and_passwd.png)
+
+### System Audit
+![User audit](Screenshots/04_passwd_user_audit.png)
+![Audit after changes](Screenshots/05_passwd_after_changes.png)
+
+### Privilege Management
+![User switching](Screenshots/06_user_switch_and_privileges.png)
+![Visudo configuration](Screenshots/07_visudo_privilege_management.png)
+![Sudoers privilege assignment](Screenshots/09_sudoers_privilege_assignment.png)
+
+### Filesystem & Group Management
+![Home directory permissions](Screenshots/10_home_directory_permissions.png)
+![Group membership verification](Screenshots/11_group_membership_verification.png)
+![Remove user from group](Screenshots/12_remove_user_from_group.png)
+
+### Incident Cleanup & Final Verification
+![System cleanup](Screenshots/13_system_cleanup_final.png)
+![Final system audit](Screenshots/14_final_system_audit.png)
